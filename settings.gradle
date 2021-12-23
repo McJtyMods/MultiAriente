@@ -1,7 +1,8 @@
 rootProject.name = 'Multiproject' // Optionally set a custom name for the root
 
-include 'examplelib'
-include 'examplemod'
+include 'McJtyLib'
+include 'HoloGui'
+include 'Ariente'
 
 // This must always be here
 include 'runenv'

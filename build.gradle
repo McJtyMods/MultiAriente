@@ -5,16 +5,16 @@ subprojects {
 			return
 		}
 		
-		resolutionStrategy.dependencySubstitution {
-			substitute module("com.example:examplelib") using project(":examplelib")
-		}
+//		resolutionStrategy.dependencySubstitution {
+//			substitute module("com.example:examplelib") using project(":examplelib")
+//		}
 	}
 }
 
 project('runenv') {
 	ext {
-		mcversion = '1.17.1'
-		forgeversion = '37.0.13'
+		mcversion = '1.18.1'
+		forgeversion = '39.0.5'
 	}
 	repositories {
 	}
